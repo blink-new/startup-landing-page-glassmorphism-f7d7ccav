@@ -121,16 +121,11 @@ const LandingPage = () => {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* 
-          REPLACE THIS BACKGROUND IMAGE WITH YOUR UPLOADED IMAGE:
-          1. Upload your image to the /public folder
-          2. Replace the URL below with: /your-image-name.jpg
-          3. Or use the full URL if your image is hosted elsewhere
-        */}
+        {/* Your uploaded hero background image */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMJA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80')`
+            backgroundImage: `url('/hero-background.jpg')`
           }}
         />
         <div className="absolute inset-0 hero-gradient" />
